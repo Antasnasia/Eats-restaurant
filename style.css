@@ -1,4 +1,6 @@
 body{
+    padding: 0;
+    margin: 0;
     font-family: 'Montserrat', 'Arial',  sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -12,23 +14,98 @@ line-height: 38px;
 a{
     text-decoration: none;
 }
-.order h2 {
+.app {
+background-image: url('img/Promo.png');
+color: #FFFFFF;
+text-align: center;
+padding: 80px 0 160px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.app-text {
+    font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+color: #F7F7F7;
+
+}
+.app-title {
+    font-weight: bold;
+font-size: 58px;
+line-height: 80px;
+letter-spacing: 0.2px;
+max-width: 800px;
+margin: 10px auto;
+}
+.app-about {
+    letter-spacing: 0.2px;
+color: #F7F7F7;
+margin-bottom: 80px;
+}
+.promo-button {
+    font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+width: 236px;
+height: 70px;
+color: #FFFFFF;
+border-radius: 30px;
+}
+.button-container > button:first-of-type {
+    background: #FA4A0C;
+box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+border: none;
+margin-right: 67px;
+}
+.button-container > button:last-of-type {
+    background: none;
+    border: 1px solid white;
+}
+.order {
+    background-image: url('img/order.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding: 140px 0 130px;
+}
+.order-buttons-container {
+    margin-top: 60px;
+}
+.order-title {
     font-weight: bold;
 font-size: 40px;
 line-height: 57px;
-text-align: center;
-letter-spacing: 0.2px;
-
 }
-.order h4 {
+.order-text {
     font-size: 24px;
 line-height: 38px;
-text-align: center;
-letter-spacing: 0.2px;
+margin-top: 20px;
 }
 .order-button {
     font-weight: bold;
 font-size: 16px;
 line-height: 28px;
 letter-spacing: 0.2px;
+color: #FFFFFF;
+height: 60px;
+}
+.order-buttons-container > button:first-of-type {
+    width: 140px;
+
+background: #FA4A0C;
+border-radius: 10px;
+margin-right: 16px;
+border: none;
+}
+.order-buttons-container > button:last-of-type {
+    width: 170px;
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 10px;
+background: none;
 }
